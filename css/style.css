@@ -15,6 +15,15 @@ a {
 html,
 body {
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .header {
@@ -116,4 +125,131 @@ body {
 }
 .nav-list-item.active {
   color: #E3AE57;
+}
+
+.about .first-line {
+  display: flex;
+  height: 320px;
+}
+.about .main-text {
+  width: 50%;
+  padding: 1rem;
+}
+.about .main-text .title {
+  padding: 1rem;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  color: #333333;
+}
+.about .main-text .secondary-text {
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  color: #E3AE57;
+}
+.about .main-text .text {
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  color: #888888;
+}
+.about .main-img {
+  width: 25%;
+  height: 100%;
+}
+.about .secondary-main-text {
+  width: 25%;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  background-color: #E3AE57;
+}
+.about .secondary-main-text .title {
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: lighter;
+  font-size: 2.2rem;
+}
+.about .secondary-main-text .text {
+  padding: 0;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.about .secondary-main-text .d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .secondary-main-text .percent-item {
+  padding: 0.5rem 0;
+}
+.about .secondary-main-text .label {
+  color: #232b2b;
+  padding-bottom: 0.2rem;
+}
+.about .secondary-main-text .line {
+  height: 5px;
+  width: 100%;
+  background-color: #fff;
+}
+.about .secondary-main-text .full-90 {
+  width: 90%;
+  height: 100%;
+  background-color: #232b2b;
+}
+.about .secondary-main-text .full-70 {
+  width: 70%;
+  height: 100%;
+  background-color: #232b2b;
+}
+.about .secondary-main-text .full-80 {
+  width: 80%;
+  height: 100%;
+  background-color: #232b2b;
+}
+.about .secondary-main-text .percent {
+  color: #fff;
+}
+.about .second-line {
+  display: flex;
+}
+.about .second-line .item {
+  padding: 4rem 2rem;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}
+.about .second-line .item i {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.about .second-line .item .title {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.about .second-line .item .text {
+  font-size: 0.9rem;
+}
+.about .second-line .green {
+  background-color: #E3AE57;
+  padding-left: 2.4rem;
+}
+.about .second-line .red {
+  background-color: #E9724C;
+}
+.about .second-line .black {
+  background-color: #161616;
+}
+.about .second-line .white {
+  background-color: #fff;
+}
+.about .second-line .white i {
+  color: #000;
+}
+.about .second-line .white .title {
+  color: #232b2b;
+}
+.about .second-line .white .text {
+  color: #888888;
 }/*# sourceMappingURL=style.css.map */

@@ -4,46 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Stimulus</title>
   </head>
   <body>
     <!-- Header start -->
     <header class="header">
-        <div class="left-side">
-          <div class="logo"><h1>Stimulus</h1></div>
-        </div>
-        <div class="right-side">
-         <!-- Navbar section start -->
-         <nav class="nav">
+      <div class="left-side">
+        <div class="logo"><h1>Stimulus</h1></div>
+      </div>
+      <div class="right-side">
+        <!-- Navbar section start -->
+        <nav class="nav">
           <div class="nav-list">
             <a href="#home" class="nav-list-item active">HOME</a>
-            <a href="#" class="nav-list-item">ABOUT</a>
+            <a href="#about" class="nav-list-item">ABOUT</a>
             <a href="#" class="nav-list-item">EXPERIENCE</a>
             <a href="#" class="nav-list-item">TESTIMONIALS</a>
             <a href="#" class="nav-list-item">CONTACT</a>
           </div>
         </nav>
-         <!-- Navbar section end -->
+        <!-- Navbar section end -->
         <!-- Home section start -->
         <section class="home" id="home">
-            <p class="home-top_text">
-                WELCOME TO MY WEBSITE
-            </p>
-            <h1 class="home-title">
-                Hello, I am <span>Stimulus</span> currently based in New York city.
-            </h1>
-            <p class="home-text">
-                Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.
-            </p>
-            <button class="home-btn">
-                <a href="#">GET STARTED</a>
-            </button>
+          <p class="home-top_text">WELCOME TO MY WEBSITE</p>
+          <h1 class="home-title">
+            Hello, I am <span>Stimulus</span> currently based in New York city.
+          </h1>
+          <p class="home-text">
+            Donec auctor arcu at efficitur lacinia. Praesent bibendum efficitur
+            ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum
+            non pellentesque felis, sed dignissim urna. Vestibulum id accumsan
+            quam.
+          </p>
+          <button class="home-btn">
+            <a href="#">GET STARTED</a>
+          </button>
         </section>
         <!-- Home section end -->
-        </div>
-      </header>
+      </div>
+    </header>
     <!-- Header end -->
+    <!-- About section start -->
+    <section class="about" id="about">
+      <div class="first-line">
+        <div class="main-text">
+          <h1 class="title">Donec auctor</h1>
+          <p class="secondary-text">Sed vulputate vitae diam quis bibendum</p>
+          <p class="text">
+            Phasellus vulputate tellus nec tortor varius elementum. Curabitur at
+            pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue
+            sem. Mauris convallis eros massa.
+          </p>
+          <p class="text">
+            Quisque viverra iaculis aliquam. Etiam volutpat, justo non aliquam
+            bibendum, sem nibh mollis erat, quis porta odio odio at velit
+          </p>
+        </div>
+        <div class="main-img">
+          <img src="./images/about-img.jpg" alt="About img" class="img" />
+        </div>
+        <div class="secondary-main-text">
+          <h1 class="title">My Skills</h1>
+          <p class="text">Photoshop . HTML CSS JS . Web Design</p>
+          <div class="percent-item">
+            <div class="d-flex">
+              <p class="label">Frontend Design</p>
+              <p class="percent">90%</p>
+            </div>
+            <div class="line">
+              <div class="full-90"></div>
+            </div>
+          </div>
+          <div class="percent-item">
+            <div class="d-flex">
+              <p class="label">Backend processing</p>
+              <p class="percent">70%</p>
+            </div>
+            <div class="line">
+              <div class="full-70"></div>
+            </div>
+          </div>
+          <div class="percent-item">
+            <div class="d-flex">
+              <p class="label">HTML5 & CSS3</p>
+              <p class="percent">80%</p>
+            </div>
+            <div class="line">
+              <div class="full-80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="second-line">
+        <div class="item green">
+          <i class="fa-solid fa-desktop"></i>
+          <h2 class="title">Interface Design</h2>
+          <p class="text">Phasellus vulputate tellus nec tortor varius elementum. Curabitur at pulvinar ante.</p>
+        </div>
+        <div class="item red">
+            <i class="fa-brands fa-telegram"></i>
+          <h2 class="title">Media Strategy</h2>
+          <p class="text">Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem.</p>
+        </div>
+        <div class="item black">
+            <i class="fa-regular fa-calendar-days"></i>
+          <h2 class="title">Mobile App</h2>
+          <p class="text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+        </div>
+        <div class="item white">
+            <i class="fa-brands fa-html5"></i>
+          <h2 class="title">Coding</h2>
+          <p class="text">Mauris convallis eros massa, vitae euismod arcu tempus ut. Quisque viverra iaculis.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About section end -->
     <script src="./js/script.js"></script>
   </body>
 </html>

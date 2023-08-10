@@ -1,0 +1,139 @@
+@use '../abstract/variables' as vars;
+.about{
+    .first-line{
+        display: flex;
+        height: 320px;
+    }
+    .main-text{
+        width: 50%;
+        padding: 1rem;
+        .title{
+            padding: 1rem;
+            font-weight: lighter;
+            font-size: 2.5rem;
+            color: vars.$home-title;
+        }
+        .secondary-text{
+            padding: 1rem {
+                top: 0;
+                bottom: 2rem;
+            };
+            color: vars.$navbar-active;
+        }
+        .text{
+            padding: 1rem{
+                top: 0;
+                bottom: 1rem;
+            };
+            color: vars.$home-text;
+        }
+    }
+    .main-img{
+        width: 25%;
+        height: 100%;
+        
+    }
+    .secondary-main-text{
+        width: 25%;
+        height: 100%;
+        padding: 1rem 1.5rem;
+        background-color: vars.$navbar-active;
+        .title{
+            color: #fff;
+            padding: 1rem 0;
+            font: {
+                weight: lighter;
+                size: 2.2rem;
+            }
+        }
+        .text{
+            padding: 0{
+                bottom: 1rem;
+            };
+            font-size: .9rem;
+            color: #fff;
+        }
+        .d-flex{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .percent-item{
+            padding: .5rem 0;
+        }
+        .label{
+            color: vars.$home-title-bold;
+            padding-bottom: 0.2rem;
+        }
+        .line{
+            height: 5px;
+            width: 100%;
+            background-color: #fff;
+            
+        }
+        .full-90{
+            width: 90%;
+            height: 100%;
+            background-color: vars.$home-title-bold;
+        }
+        .full-70{
+            width: 70%;
+            height: 100%;
+            background-color: vars.$home-title-bold;
+        }
+        .full-80{
+            width: 80%;
+            height: 100%;
+            background-color: vars.$home-title-bold;
+        }
+        .percent{
+            color: #fff;
+        }
+    }
+    .second-line{
+        display: flex;
+        .item{
+            padding: 4rem 2rem;
+            color: #fff;
+            background-color: #000;
+            text-align: center;
+            i{
+                font-size: 3rem;
+                padding-bottom: 1rem;
+            }
+            .title{
+                font: {
+                    weight: lighter;
+                    size: 1.5rem;
+                }
+                padding-bottom: .5rem;
+            }
+            .text{
+                font-size: .9rem;
+            }
+        }
+        .green{
+            background-color: vars.$navbar-active;
+            padding-left: 2.4rem;
+        }
+        .red{
+            background-color: vars.$red-bg;
+        }
+        .black{
+            background-color: vars.$black-bg;
+        }
+        .white{
+            background-color: #fff;
+            i{
+                color: #000;
+            }
+            .title{
+                color: vars.$home-title-bold;
+            }
+            .text{
+                color: vars.$home-text;
+            }
+        }
+    }
+}

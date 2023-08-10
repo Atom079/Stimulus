@@ -1,0 +1,42 @@
+@use '../abstract/variables' as vars;
+.home{
+    padding: 3rem;
+    padding-top: 4rem;
+    &-top_text{
+        color: vars.$home-secondary-color;
+        font-size: .9rem;
+        letter-spacing: 1px;
+    }
+    &-title{
+        padding: 1rem 0;
+        font-weight: 100;
+        font-size: 2rem;
+        color: vars.$home-title;
+        letter-spacing: 1px;
+        span{
+            color: vars.$home-title-bold;
+        }
+    }
+    &-text{
+        padding-bottom: 3rem;
+        color: vars.$home-text;
+    }
+    &-btn{
+        padding: .8rem 2rem;
+        border: 3px solid vars.$home-title-bold;
+        border-radius: 3rem;
+        background-color: transparent;
+        transition: all .4s ease-in-out;
+        cursor: pointer;
+        a{
+            color: vars.$home-title-bold;
+        }
+        &:hover{
+            background-color: vars.$navbar-active;
+            border-color: vars.$navbar-active;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}

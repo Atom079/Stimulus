@@ -1,0 +1,25 @@
+@use '../abstract/variables' as vars;
+.nav{
+    min-height: 10vh;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    &-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    &-list-item{
+        margin-right: 1rem;
+        color: vars.$navbar-item;
+        font-size: .9rem;
+        letter-spacing: 1px;
+        transition: all .4s ease-in-out;
+        &:hover{
+            color: vars.$navbar-active;
+        }
+        &.active{
+            color: vars.$navbar-active;
+        }
+    }
+}

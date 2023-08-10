@@ -15,4 +15,105 @@ a {
 html,
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.left-side {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("/images/home-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.left-side .logo {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+.left-side .logo h1 {
+  color: #232b2b;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+.right-side {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #F1E2D7;
+}
+
+.home {
+  padding: 3rem;
+  padding-top: 4rem;
+}
+.home-top_text {
+  color: #999999;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.home-title {
+  padding: 1rem 0;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #333333;
+  letter-spacing: 1px;
+}
+.home-title span {
+  color: #232b2b;
+}
+.home-text {
+  padding-bottom: 3rem;
+  color: #888888;
+}
+.home-btn {
+  padding: 0.8rem 2rem;
+  border: 3px solid #232b2b;
+  border-radius: 3rem;
+  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.home-btn a {
+  color: #232b2b;
+}
+.home-btn:hover {
+  background-color: #E3AE57;
+  border-color: #E3AE57;
+}
+.home-btn:hover a {
+  color: #fff;
+}
+
+.nav {
+  min-height: 10vh;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list-item {
+  margin-right: 1rem;
+  color: #666666;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+}
+.nav-list-item:hover {
+  color: #E3AE57;
+}
+.nav-list-item.active {
+  color: #E3AE57;
 }/*# sourceMappingURL=style.css.map */

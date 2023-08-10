@@ -1,0 +1,13 @@
+@use './typography' as type;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html, 
+body{
+    font-family: type.$global-text;
+}

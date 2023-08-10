@@ -1,0 +1,66 @@
+@use '../abstract/variables' as vars;
+.content{
+    .content-item{
+        display: flex;
+        .main-img{
+            width: 50%;
+        }
+        .main-text{
+            width: 50%;
+        }
+        color: #fff;
+    }
+    .green{
+        background-color: vars.$navbar-active;
+        padding-left: 2.4rem;
+    }
+    .red{
+        background-color: vars.$red-bg;
+    }
+    .black{
+        background-color: vars.$black-bg;
+    }
+}
+.main-text{
+    padding: 3rem;
+    .title{
+        font: {
+            weight: lighter;
+            size: 2rem;
+        }
+        padding-bottom: 1rem;
+    }
+    .secondary-text{
+        padding-bottom: 1rem;
+    }
+    
+}
+
+.experience{
+    .item{
+        display: flex;
+        align-items: center;
+        padding: 1rem 0;
+        .d-flex{
+            display: flex;
+            align-items: center;
+        }
+        &-icon{
+            padding-right: 1rem;
+            font-size: 2rem;
+        }
+        &-title{
+            font: {
+                weight: lighter;
+                size: 1.2rem;
+            }
+            padding-right: 1rem;
+        }
+        &-text{
+            font-size: .9rem;
+        }
+        &-secondary-text{
+            color: vars.$home-title-bold;
+        }
+    }
+}

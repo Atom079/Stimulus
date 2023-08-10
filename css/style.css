@@ -252,4 +252,62 @@ img {
 }
 .about .second-line .white .text {
   color: #888888;
+}
+
+.content .content-item {
+  display: flex;
+  color: #fff;
+}
+.content .content-item .main-img {
+  width: 50%;
+}
+.content .content-item .main-text {
+  width: 50%;
+}
+.content .green {
+  background-color: #E3AE57;
+  padding-left: 2.4rem;
+}
+.content .red {
+  background-color: #E9724C;
+}
+.content .black {
+  background-color: #161616;
+}
+
+.main-text {
+  padding: 3rem;
+}
+.main-text .title {
+  font-weight: lighter;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.main-text .secondary-text {
+  padding-bottom: 1rem;
+}
+
+.experience .item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.experience .item .d-flex {
+  display: flex;
+  align-items: center;
+}
+.experience .item-icon {
+  padding-right: 1rem;
+  font-size: 2rem;
+}
+.experience .item-title {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+.experience .item-text {
+  font-size: 0.9rem;
+}
+.experience .item-secondary-text {
+  color: #232b2b;
 }/*# sourceMappingURL=style.css.map */

@@ -26,6 +26,7 @@ img {
      object-fit: cover;
 }
 
+/*Header section styles start*/
 .header {
   width: 100%;
   height: 100vh;
@@ -60,6 +61,8 @@ img {
   background-color: #F1E2D7;
 }
 
+/*Header section styles end*/
+/*Home section styles start*/
 .home {
   padding: 3rem;
   padding-top: 4rem;
@@ -102,6 +105,8 @@ img {
   color: #fff;
 }
 
+/*Home section styles end*/
+/*Navbar styles start*/
 .nav {
   min-height: 10vh;
   padding-bottom: 1rem;
@@ -127,12 +132,14 @@ img {
   color: #E3AE57;
 }
 
+/*Navbar styles end*/
+/*About section styles start*/
 .about .first-line {
-  display: flex;
-  height: 320px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 .about .main-text {
-  width: 50%;
   padding: 1rem;
 }
 .about .main-text .title {
@@ -154,11 +161,9 @@ img {
   color: #888888;
 }
 .about .main-img {
-  width: 25%;
   height: 100%;
 }
 .about .secondary-main-text {
-  width: 25%;
   height: 100%;
   padding: 1rem 1.5rem;
   background-color: #E3AE57;
@@ -211,10 +216,10 @@ img {
   color: #fff;
 }
 .about .second-line {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .about .second-line .item {
-  width: 25%;
   padding: 4rem 2rem;
   color: #fff;
   background-color: #000;
@@ -254,6 +259,8 @@ img {
   color: #888888;
 }
 
+/*About section styles end*/
+/*Experience section styles start*/
 .content .content-item {
   display: flex;
   color: #fff;
@@ -312,6 +319,8 @@ img {
   color: #232b2b;
 }
 
+/*Experience section styles end*/
+/*Testimonials section styles start*/
 .testimonials {
   background-image: url("/images/quotes-bg.jpg");
   background-repeat: no-repeat;
@@ -351,4 +360,98 @@ img {
 .testimonials .text {
   color: #888888;
   font-size: 0.9rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*Testimonials section styles end*/
+/*Contact section styles start*/
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.contact .form {
+  color: #fff;
+  background-color: #E9724C;
+  padding: 1rem 2rem;
+}
+.contact .form-title {
+  padding: 1rem;
+  padding-bottom: 0;
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+.contact .form-secondary-text {
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+.contact .form-control, .contact .form-textarea {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid #E3AE57;
+  background-color: transparent;
+  font-family: inherit;
+  transition: border 0.4s ease-out;
+}
+.contact .form-control:focus, .contact .form-textarea:focus {
+  outline: none;
+  border-bottom-color: #fff;
+}
+.contact .form-control::-moz-placeholder, .contact .form-textarea::-moz-placeholder {
+  color: #fff;
+}
+.contact .form-control:-ms-input-placeholder, .contact .form-textarea:-ms-input-placeholder {
+  color: #fff;
+}
+.contact .form-control::placeholder, .contact .form-textarea::placeholder {
+  color: #fff;
+}
+.contact .form-btn {
+  border: none;
+  padding: 0.7rem 2rem;
+  width: 200px;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.contact .form-btn a {
+  color: #000;
+}
+.contact .form-btn:hover {
+  background-color: transparent;
+}
+.contact .form-btn:hover a {
+  color: #fff;
+}
+.contact .secondary-main-text {
+  background-color: #161616;
+  padding: 2rem;
+}
+.contact .secondary-main-text .title {
+  padding: 1rem 0;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.contact .secondary-main-text .text {
+  color: #888888;
+  font-size: 0.9rem;
+}
+.contact .link {
+  padding: 0.5rem 0;
+  color: #888888;
+  font-size: 0.9rem;
+}
+.contact .link i {
+  margin-right: 0.2rem;
+}
+.contact .link a {
+  color: #E3AE57;
+}
+
+/*Contact section styles end*//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,95 @@
+/*Contact section styles start*/
+// Contact section styles start
+@use '../abstract/variables' as vars;
+.contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    .form{
+        color: #fff;
+        background-color: vars.$red-bg;
+        padding: 1rem 2rem;
+        &-title{
+            padding: 1rem {
+                bottom: 0
+            };
+            font: {
+                weight: lighter;
+                size: 2.5rem;
+            };
+        }
+        &-secondary-text{
+            padding: 1rem {
+                top: 0;
+                bottom: 2rem;
+            };
+        }
+        &-control, &-textarea{
+            display: block;
+            margin: 1rem 0;
+            width: 100%;
+            color: #fff;
+            padding: 1rem;
+            border: none;
+            border-bottom: 1px solid vars.$navbar-active;
+            background-color: transparent;
+            font-family: inherit;
+            transition: border .4s ease-out;
+            &:focus{
+                outline: none;
+                border-bottom-color: #fff;
+            }
+            &::placeholder{
+                color: #fff;
+            }
+        }
+    }
+    .form-btn{
+        border: none;
+        padding: .7rem 2rem;
+        width: 200px;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        border: 1px solid #fff;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        a{
+            color: #000;
+        }
+        &:hover{
+            background-color: transparent;
+            
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .secondary-main-text{
+        background-color: vars.$black-bg;
+        padding: 2rem;
+        .title{
+            padding: 1rem 0;
+            font: {
+                weight: lighter;
+                size: 1.5rem;
+            };
+            color: #fff;
+        }
+        .text{
+            color: vars.$home-text;
+            font-size: .9rem;
+        }
+    }
+    .link{
+        padding: 0.5rem 0;
+        color: vars.$home-text;
+        font-size: .9rem;
+        i{
+            margin-right: 0.2rem;
+        }
+        a{
+            color: vars.$navbar-active;
+        }
+    }
+}
+/*Contact section styles end*/
+// Contact section styles end

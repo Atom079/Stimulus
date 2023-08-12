@@ -1,11 +1,13 @@
+/*About section styles start*/
+// About section styles start
 @use '../abstract/variables' as vars;
 .about{
     .first-line{
-        display: flex;
-        height: 320px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
     }
     .main-text{
-        width: 50%;
         padding: 1rem;
         .title{
             padding: 1rem;
@@ -29,12 +31,10 @@
         }
     }
     .main-img{
-        width: 25%;
+
         height: 100%;
-        
     }
     .secondary-main-text{
-        width: 25%;
         height: 100%;
         padding: 1rem 1.5rem;
         background-color: vars.$navbar-active;
@@ -92,9 +92,9 @@
         }
     }
     .second-line{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         .item{
-            width: 25%;
             padding: 4rem 2rem;
             color: #fff;
             background-color: #000;
@@ -137,3 +137,5 @@
         }
     }
 }
+/*About section styles end*/
+// About section styles end

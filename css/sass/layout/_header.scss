@@ -1,3 +1,5 @@
+/*Header section styles start*/
+// Header section styles start
 @use "../abstract/variables" as vars;
 .header{
     width: 100%;
@@ -30,3 +32,5 @@
     height: 100%;
     background-color: vars.$header-bg;
 }
+/*Header section styles end*/
+// Header section styles end

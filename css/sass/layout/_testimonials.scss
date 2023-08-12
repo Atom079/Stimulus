@@ -1,0 +1,43 @@
+@use '../abstract/variables' as vars;
+.testimonials{
+    background-image: url("/images/quotes-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    &::after{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+    }
+    .main-content{
+        z-index: 2;
+        color: #fff;
+        text-align: center;
+    }
+    .icon{
+        color: #fff;
+        font-size: 3rem;
+    }
+    .title{
+        font: {
+            weight: lighter;
+            size: 2rem;
+        };
+        padding: 1rem 0;
+    }
+    .text{
+        color: vars.$home-text;
+        font-size: .9rem;
+    }
+}
